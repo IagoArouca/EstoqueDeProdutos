@@ -45,7 +45,7 @@ Este projeto é executado utilizando `docker-compose`, o que simplifica a config
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [LINK DO SEU REPOSITÓRIO]
+    git clone https://github.com/IagoArouca/EstoqueDeProdutos
     cd [NOME DO REPOSITÓRIO]
     ```
 
@@ -63,7 +63,7 @@ Este projeto é executado utilizando `docker-compose`, o que simplifica a config
     ```bash
     docker exec -it [NOME_DO_CONTAINER_BACKEND] npm run typeorm migration:run
     ```
-    *(Se você usa `synchronize: true` no TypeORM, este passo pode não ser necessário, mas não é recomendado para produção.)*
+    *(Use `synchronize: true` no TypeORM, este passo pode não é necessário, mas não é recomendado para produção.)*
 
 ### Acesso
 
@@ -84,8 +84,8 @@ Sinta-se à vontade para abrir Issues ou Pull Requests. Toda contribuição é b
 
 ## 👨‍💻 Autor
 
-[Seu Nome Completo]
+Iago Arouca
 
-[Seu Perfil do LinkedIn]
+www.linkedin.com/in/iago-arouca-b0b5381ab
 
-[Seu Portfólio ou Website (Opcional)]
+https://portifolio-pied-omega-33.vercel.app/
